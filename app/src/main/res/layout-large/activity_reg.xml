@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/header">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="WELCOME"
+                android:textSize="40dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_marginTop="50dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up to continue"
+                android:textSize="18dp"
+                android:letterSpacing="0.03"
+                android:textColor="#FBC02D"
+                android:textStyle="bold"/>
+
+        </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textSize="35dp"
+            android:textStyle="bold"
+            android:textColor="#ad168b"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="35dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/FullName"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="40dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Full Name"
+            android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/forget"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:id="@+id/t1"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Email"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Email"
+            android:drawableLeft="@drawable/ic_mail_black_24dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/forget"
+            android:id="@+id/t2"
+            android:layout_marginTop="10dp" />
+
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_gravity="end|center_vertical"
+                android:id="@+id/progressBarEmail"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Username"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Username"
+            android:background="@drawable/forget"
+            android:drawableLeft="@drawable/ic_person_add_white_24dp"
+            android:drawablePadding="10dp"
+            android:id="@+id/t3"
+            android:layout_marginTop="10dp"/>
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_gravity="end|center_vertical"
+                android:id="@+id/progressBarUser"
+                android:layout_marginRight="10dp"
+                android:visibility="gone"
+                android:layout_marginTop="5dp"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Password"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Password"
+            android:id="@+id/t4"
+            android:drawableLeft="@drawable/ic_screen_lock_portrait_black_24dp"
+            android:drawablePadding="10dp"
+            android:inputType="textPassword"
+            android:background="@drawable/forget"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ConfirmPassword"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Confirm Password"
+            android:drawableLeft="@drawable/ic_info_black_24dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/forget"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/t5"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Address"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Address"
+            android:drawableLeft="@drawable/ic_add_location_white_24dp"
+            android:drawablePadding="10dp"
+            android:background="@drawable/forget"
+            android:layout_marginLeft="35dp"
+            android:id="@+id/t6"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Phone"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter the Phone no."
+            android:id="@+id/t7"
+            android:background="@drawable/forget"
+            android:drawableLeft="@drawable/ic_call_white_24dp"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="10dp"/>
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_gravity="end|center_vertical"
+                android:id="@+id/progressBarPhone"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone"/>
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="40dp"/>
+        <RadioGroup
+            android:background="@drawable/forget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg"
+            android:orientation="horizontal"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/m"
+                android:text="@string/Male"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/f"
+                android:text="@string/Female"
+                android:textSize="15sp"
+                android:layout_marginRight="10dp" />
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/o"
+                android:text="@string/Others"
+                android:textSize="15sp"
+                android:layout_marginRight="15dp" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:textColor="#fff"
+            android:background="@drawable/regbuttonbg"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/b1"
+            android:gravity="center"
+            android:layout_marginBottom="50dp"/>
+    </LinearLayout>
+</ScrollView>

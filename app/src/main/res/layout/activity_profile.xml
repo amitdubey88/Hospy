@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5e4e2"
+    tools:context="com.example.anuragini.hospy.Profile">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="#7f00ff"
+            android:id="@+id/rl1">
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/imv"
+                android:src="@drawable/profile"
+                android:layout_centerInParent="true"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" 
+                android:text="Welcome"
+                android:layout_below="@id/imv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp"
+                android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+                android:textColor="#fff"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="15dp"
+            android:translationY="-50dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/seepro">
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ic_profile"
+                android:src="@drawable/ic_profile"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/name"
+                android:text="Amit"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="50dp"
+                android:layout_alignStart="@id/ic_profile"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/name"
+                android:id="@+id/line1"
+                android:background="@android:color/darker_gray"/>
+
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ic_email"
+                android:layout_below="@id/line1"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_email"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/email"
+                android:layout_below="@id/line1"
+                android:text="amitdubey1999@g....."
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="#000"
+                android:layout_marginLeft="50dp"
+                android:layout_alignStart="@id/ic_email"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/email"
+                android:id="@+id/line2"
+                android:background="@android:color/darker_gray"/>
+
+
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ic_user"
+                android:layout_below="@id/line2"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_person_add_white_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/user"
+                android:text="amit"
+                android:layout_below="@id/line2"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="50dp"
+                android:layout_alignStart="@id/ic_profile"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/user"
+                android:id="@+id/line3"
+                android:background="@android:color/darker_gray"/>
+
+
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ic_address"
+                android:layout_below="@id/line3"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_add_location_white_24dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"
+                android:text="Lalpur Ranchi"
+                android:layout_below="@id/line3"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="50dp"
+                android:layout_alignStart="@id/ic_address"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/address"
+                android:id="@+id/line4"
+                android:background="@android:color/darker_gray"/>
+
+
+
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ic_phone"
+                android:layout_below="@id/line4"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_mobile"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/phone"
+                android:text="+918271235089"
+                android:layout_below="@id/line4"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="50dp"
+                android:layout_alignStart="@id/ic_phone"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/phone"
+                android:id="@+id/line5"
+                android:background="@android:color/darker_gray"/>
+
+
+
+
+
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:id="@+id/ic_gender"
+                android:layout_below="@id/line5"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/ic_gender"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/gender"
+                android:text="Male"
+                android:layout_below="@id/line5"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="50dp"
+                android:layout_alignStart="@id/ic_gender"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="20dp"
+                android:layout_below="@id/gender"
+                android:id="@+id/line6"
+                android:background="@android:color/darker_gray"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="#36454f"
+            android:text="All the above information is filled by you."/>
+    </LinearLayout>
+
+</ScrollView>

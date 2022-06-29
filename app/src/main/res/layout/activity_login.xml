@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="#fff"
+    tools:context="com.example.anuragini.hospy.Login">
+
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:src="@drawable/mh"
+        android:id="@+id/mainimg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="WELCOME!"
+        android:id="@+id/welcomeText"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/mainimg"
+        android:textColor="#3f3f3f"
+        />
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:text="You are all here to be in a new world where everything is made easy for you."
+        android:gravity="center"
+        android:layout_below="@+id/welcomeText"
+        android:layout_marginTop="15dp"
+        android:textAlignment="center"
+        android:lineSpacingExtra="3dp"
+        android:id="@+id/descText"
+        />
+    <Button
+        android:layout_width="245dp"
+        android:layout_height="45dp"
+        android:text="GET STARTED"
+        android:background="@drawable/bgbutton"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="70dp"
+        android:textStyle="bold"
+        android:id="@+id/getStartedButton"/>
+</RelativeLayout>

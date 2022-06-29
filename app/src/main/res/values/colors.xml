@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="primaryDark">#2B98EF</color>
+    <color name="searchColor">#6361F4</color>
+    <color name="blue">#00008b</color>
+    <color name="colorWhite">#0691b8</color>
+
+    <color name="tabtextcolor">#000000</color>
+
+    <color name="tabindicatorcolor">#2d2d2d</color>
+
+    <color name="detailsDocColor">#03A9F4</color>
+
+    <color name="detailsColor">#f6f6f6</color>
+
+    <color name="searchDialogResultColor">#123456</color>
+
+    <color name="toolbar_title">#1c9f18</color>
+    <color name="primary">#37474f</color>
+    <color name="primary_dark">#263238</color>
+    <color name="accent">#78909c</color>
+    <color name="control_normal">#888888</color>
+    <color name="fab_pressed">#546e7a</color>
+
+    <color name="searchDialogResultHighlightColor">#f71616</color>
+</resources>
