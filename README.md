@@ -95,5 +95,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ---
 
-*Note: Replace placeholder links and images with actual content relevant to your project.*
+
 
