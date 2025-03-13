@@ -2,43 +2,20 @@
 
 *Transforming Hospital Management with Efficiency and Ease*
 
-
-
-## Table of Contents
-
-- [About the Project](#about-the-project)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Contact](#contact)
-- [License](#license)
-- [Acknowledgments](#acknowledgments)
-
 ## About the Project
 
 **Hospy** is an Android-based hospital management system designed to streamline various hospital operations, enhancing efficiency and patient care. Developed as a final year college project, Hospy integrates multiple functionalities into a single platform, making hospital management more accessible and organized.
 
-## Features
 
-- **Patient Management:** Efficiently manage patient records, admissions, and discharges.
-- **Appointment Scheduling:** Simplify the process of scheduling, rescheduling, and canceling appointments.
-- **Staff Management:** Oversee staff details, roles, and schedules.
-- **Inventory Management:** Keep track of medical supplies and equipment.
-- **Billing System:** Generate and manage patient bills with ease.
 
 ## Technologies Used
 
 - **Programming Language:** Java
 - **Integrated Development Environment (IDE):** Android Studio
-- **Database:** SQLite for local data storage
+- **Database:** Online storage of data and connecting it to 000webhost using Volly API for data storage
 - **Libraries and Tools:**
   - [Retrofit](https://square.github.io/retrofit/) for network operations
   - [Glide](https://github.com/bumptech/glide) for image loading
-  - [Firebase](https://firebase.google.com/) for cloud messaging and analytics
 
 ## Getting Started
 
